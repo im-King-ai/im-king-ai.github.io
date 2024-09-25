@@ -3,11 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的GitHub网页</title>
-    <link rel="stylesheet" href="style.css">
+    <title>我的GitHub主页</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: url('https://images.unsplash.com/photo-1512960962214-5f579c4d14ef?fit=crop&w=1920&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            transition: transform 0.3s;
+        }
+        h1:hover {
+            transform: scale(1.05);
+        }
+        p {
+            font-size: 1.2em;
+            margin: 10px 0 20px;
+            max-width: 600px;
+            line-height: 1.5;
+        }
+        .project-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .project-card {
+            background: rgba(0, 123, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 300px;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+        }
+        .project-title {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.3);
+            display: inline-block;
+            margin-top: 10px;
+        }
+        a:hover {
+            color: #fff;
+            background-color: rgba(255, 255, 255, 0.6);
+            transform: translateY(-2px);
+        }
+        footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 0.8em;
+            color: #fff;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>欢迎来到我的GitHub网页！</h1>
-    <p>这是我的第一个GitHub页面。</p>
+    <h1>欢迎来到我的GitHub主页！</h1>
+    <p>在这里，你可以找到我所有的项目和开源代码。请随意浏览，并为我提供反馈！</p>
+    <div class="project-container">
+        <div class="project-card">
+            <h2 class="project-title">mail-grade</h2>
+            <p>一个用于定时爬取并发送成绩到邮箱的项目</p>
+            <a href="https://github.com/im-King-ai/mail-grade" target="_blank">
+                <i class="fas fa-code icon"></i> 查看项目
+            </a>
+        </div>
+        <div class="project-card">
+            <h2 class="project-title">search-grade</h2>
+            <p>一个用于查询分数的项目</p>
+            <a href="https://github.com/im-King-ai/search-grade" target="_blank">
+                <i class="fas fa-search icon"></i> 查看项目
+            </a>
+        </div>
+    </div>
+    <footer>
+        访问我的 GitHub 主页：<a href="https://github.com/im-King-ai" target="_blank"><i class="fab fa-github icon"></i> im-King-ai</a>
+    </footer>
 </body>
 </html>
