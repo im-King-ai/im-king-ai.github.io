@@ -1,111 +1,206 @@
-<!DOCTYPE html>
-<html lang="zh">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的GitHub主页</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            background: url('https://images.unsplash.com/photo-1512960962214-5f579c4d14ef?fit=crop&w=1920&q=80') no-repeat center center fixed;
-            background-size: cover;
-            color: #fff;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            transition: transform 0.3s;
-        }
-        h1:hover {
-            transform: scale(1.05);
-        }
-        p {
-            font-size: 1.2em;
-            margin: 10px 0 20px;
-            max-width: 600px;
-            line-height: 1.5;
-        }
-        .project-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 20px 0;
-        }
-        .project-card {
-            background: rgba(0, 123, 255, 0.9);
-            border-radius: 10px;
-            padding: 20px;
-            margin: 10px 0;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s, box-shadow 0.3s;
-            width: 300px;
-        }
-        .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
-        }
-        .project-title {
-            font-size: 1.5em;
-            margin: 0;
-        }
-        a {
-            text-decoration: none;
-            color: #fff;
-            transition: color 0.3s;
-            padding: 10px 20px;
-            border-radius: 5px;
-            background-color: rgba(255, 255, 255, 0.3);
-            display: inline-block;
-            margin-top: 10px;
-        }
-        a:hover {
-            color: #fff;
-            background-color: rgba(255, 255, 255, 0.6);
-            transform: translateY(-2px);
-        }
-        footer {
-            position: absolute;
-            bottom: 10px;
-            font-size: 0.8em;
-            color: #fff;
-        }
-        footer a {
-            color: #fff;
-            text-decoration: underline;
-        }
-    </style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>熊锋 的个人简历</title>
+<meta name="viewport" content="initial-scale=1.0,width=device-width" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
 </head>
 <body>
-    <h1>欢迎来到我的GitHub主页！</h1>
-    <p>在这里，你可以找到我所有的项目和开源代码。请随意浏览，并为我提供反馈！</p>
-    <div class="project-container">
-        <div class="project-card">
-            <h2 class="project-title">mail-grade</h2>
-            <p>一个用于定时爬取并发送成绩到邮箱的项目</p>
-            <a href="https://github.com/im-King-ai/mail-grade" target="_blank">
-                <i class="fas fa-code icon"></i> 查看项目
-            </a>
-        </div>
-        <div class="project-card">
-            <h2 class="project-title">search-grade</h2>
-            <p>一个用于查询分数的项目</p>
-            <a href="https://github.com/im-King-ai/search-grade" target="_blank">
-                <i class="fas fa-search icon"></i> 查看项目
-            </a>
-        </div>
-    </div>
-    <footer>
-        访问我的 GitHub 主页：<a href="https://github.com/im-King-ai" target="_blank"><i class="fab fa-github icon"></i> im-King-ai</a>
-    </footer>
+
+<!--STICKER-->
+<div id="sticker"></div>
+
+<div id="wrapper">
+
+<!--BIO TITLE-->
+<h2 id="titleName" class="sectionHead">熊锋</h2>
+
+<!--BIO-->
+	<!--BIO PARAGRAPH-->
+	<div id="aboutme">
+		<div class="imgwap">
+			<img alt="" class="avatar width-full rounded-2" height="300" src="images/1.png" width="250">
+		</div>
+		<p>
+		<span>年　　龄： 	20<br/>
+		手　　机： 	17665010225<br/>
+		邮　　箱： 	1306252057@qq.com<br/>
+		户　　籍： 	广东<br/>
+		目前状态： 	在校<br/>
+		政治面貌： 	共青团员<br/>
+		民族： 	    汉<br/>
+		身高： 	    183CM<br/>
+        爱好： 	    NBA，快船球迷，虎扑会员<br/>
+		</span>
+		</p>
+	</div>
+<!--end bio-->
+
+<div class="clear"></div>
+
+<!--SKILLS TITLE-->
+<h2 id="tools" class="sectionHead">技能与证书</h2>
+
+<!--SKILLS-->
+<ul id="skills1">
+	<!--////////////////////////////////////////////////////////////////////////////////////-->
+	<!--请注意，班级名称表示您的技能的百分比。 即s70 = 70％，s40 = 40％. -->
+	<!--////////////////////////////////////////////////////////////////////////////////////-->
+	<li id="skill11" class="s100"><span>擅长数据分析与校园市场推广策略制定；具备出色的线下活动策划与执行力</span></li>
+	<li id="skill22" class="s90"><span>大学英语四级（CET-4），具备良好的英文读写能力</span></li>
+	<li id="skill33" class="s90"><span>中华人民共和国机动车驾驶证（D照，准驾三轮摩托车）</span></li>
+	<li id="skill44" class="s80"><span>擅长运营社群：自己现有四个200人左右的社群</span></li>
+	<li id="skill55" class="s90"><span>擅长小红书运营，能通过数据分析优化内容，近30日账号曝光15.4万、观看数3万，熟悉平台流量渠道（首页推荐占58%），具备笔记创作与推广能力，累计发布公开笔记97篇。</span></li>
+	<li id="skill66" class="s100"><span>抖音，视频号，小红书总粉丝量超500</span></li>
+</ul><!--end skills-->
+
+
+<div class="clear"></div>
+
+<!--EXPERIENCE TITLE-->
+<h2 id="clock" class="sectionHead">工作经理</h2>
+
+<!--EXPERIENCE-->
+<ul id="jobs">
+	<li>
+		<div class="details">
+			<h3>佛山影视服务中心</h3>
+			<h4>广东，佛山</h4>
+			<h5>2025年9月 - 至今</h5>
+		</div>
+		<p> 新媒体运营、用户运营、活动运营 | 影视
+            社群矩阵运营：搭建并运维3个分层社群（2个200人活跃群+1个50人储备群），以精准内容运营实现80%+月活，构建高效影视信息触达通道；
+            人才招募转化：策划群演定向招募策略，通过社群裂变与筛选机制，落地200人优质群演储备，支撑3个项目用人需求，到岗率达95%；
+            线上声量构建：辅助产出影视资源宣传物料，联动多渠道分发，覆盖超1000人次，为社群引流与招募储备奠定流量基础。
+		</p>
+	</li>
+	<li>
+		<div class="details">
+			<h3>广州太平洋电脑信息咨询有限公司</h3>
+			<h4>广东，广州</h4>
+			<h5>2025年7月 - 至今</h5>
+		</div>
+		<p> 校园大使（品牌推广与用户运营方向） | 互联网
+            独立完成抖音等平台的视频、图文素材发布运营，助力PConline在学生群体中的品牌认知度显著提升；策划社群裂变活动，高效完成新品资讯、AI工具评测等内容宣发；参与浪花众测计划，完成飞利浦音响、爱国者耳机等产品测评，获赞破千。
+		</p>
+	</li>
+    <li>
+		<div class="details">
+			<h3>杨掌柜</h3>
+			<h4>广东，佛山</h4>
+			<h5>2025年7月 - 至今</h5>
+		</div>
+		<p> 校园大使人力运营专员
+            独立负责全校新媒体运营人才招募：筛选简历100份，面试30人，最终录取10人。
+            搭建“小红书＋微信小程序＋校园墙＋代发朋友圈”四维引流矩阵。
+            设计“3 维评估模型”（兴趣性格/项目产出/获奖技能），面试通过率从25%提至33%。
+		</p>
+	</li>
+    <li>
+		<div class="details">
+			<h3>金程教育</h3>
+			<h4>广东，佛山</h4>
+			<h5>2025年6月 - 2025年7月</h5>
+		</div>
+		<p> 新媒体运营专员 | 互联网
+            工作内容与收获
+            负责抖音、小红书及快手多平台内容矩阵的搭建与日常运营，通过策划热点内容及互动活动，累计实现单月新增用户400人。在实践中掌握了多平台运营策略与用户增长方法，提升了内容创作与流量获取能力。
+            设计并执行用户裂变活动，结合社群分层运营，显著提升用户参与度和粘性。深入理解用户行为与需求，积累了社群运营与用户关系维护的一手经验。
+            构建微信生态私域转化闭环，完成从内容引流到用户转化的完整链路搭建。通过该过程强化了项目统筹与数据分析能力，学会通过关键指标优化运营动作。
+		</p>
+	</li>
+    <li>
+		<div class="details">
+			<h3>Aoye餐饮</h3>
+			<h4>广东，佛山</h4>
+			<h5>2025年3月 - 2025年6月</h5>
+		</div>
+		<p> 校园市场运营与外卖服务专员 | 餐饮业
+            负责校园市场的整体运营与推广，通过策划并执行线上线下品牌宣传活动，有效提升品牌在学生群体中的知名度和影响力。日常订单实现从5单到百余单的显著增长，并成功运营三个200人以上的活跃学生社群，在持续促进用户互动与转化。 同时，具备兼职外卖员的实战经验，熟悉校园内外卖配送的全流程。擅长规划高效配送路线，精通美团等外卖柜的使用及平台操作系统，能够有效提升配送效率与服务体验
+		</p>
+	</li>
+    <li>
+		<div class="details">
+			<h3>校内勤工俭学助学岗位</h3>
+			<h4>广东，佛山</h4>
+			<h5>2024年9月 - 至今</h5>
+		</div>
+		<p> 办公室助理
+            承担校内体育部辅助工作，包括文件整理、活动支持等，协助完成日常事务性工作，锻炼了时间管理和多任务处理能力。熟练使用WPS，Word，Excel
+		</p>
+	</li>
+</ul><!--end jobs-->
+
+<!--EDUCATION TITLE-->
+<div class="clear"></div><h2 id="learn" class="sectionHead">教育经历</h2>
+
+<!--EDUCATION-->
+<ul id="schools">
+	<li>
+		<div class="details">
+			<h3><font><font>广东财经大学</font></font></h3>
+			<h4><font><font>物流管理（智数化供应链）（国家重点学科） | 本科</font></font></h4>
+			<h5><font><font>2024.9-2028.6</font></font></h5>
+		</div>
+		<p><font><font>相关课程：大数据科学，交通运输学，数智话供应链管理前沿，物流学，法商概论</font></font></p>
+	</li>
+
+</ul><!--end schooling-->
+
+<div class="clear"></div>
+
+<!--HONORS / AWARDS TITLE-->
+<h2 id="ribbon" class="sectionHead">荣誉证书</h2>
+
+<!--HONORS / AWARDS-->
+<ul id="honorsAwards" style="display: block;">
+	<li><font><font>语言类：大学英语四级</font></font></li>
+	<li><font><font>国家级：京东神仙杯初赛全国第三，复赛全国第八，广东省一</font></font></li>
+	<li><font><font>国家级：萌番姬助农大赛，进入国赛</font></font></li>
+    <li><font><font>市级：百千万工程团队获云浮市优秀突击队</font></font></li>
+    <li><font><font>校级：百千万工程团队优秀立项</font></font></li>
+    <li><font><font>校级：优秀个人</font></font></li>
+    <li><font><font>校级：新文科实践创新大赛校级铜奖</font></font></li>
+    <li><font><font>校级：国际大学生创新竞赛铜奖</font></font></li>
+</ul><!--end honorsAwards-->
+
+<div class="clear"></div>
+
+<!--RECOMMENDATIONS TITLE-->
+<h2 id="chat" class="sectionHead">评价</h2>
+
+<!--RECOMMENDATIONS-->
+<ul id="recommends" style="display: block;">
+
+	<li><h3><font><font>自我评价</font></font></h3></li>
+	
+	<li>
+		<div class="details">
+			<h3><font><font>自己</font></font></h3>
+
+		</div>
+		<p><font><font>具备市场推广全流程经验，擅长从用户需求出发设计活动策略，能通过资源整合与渠道联动提升品牌认知度和业绩。平时爱琢磨游戏里的玩法逻辑，也懂篮球场上的配合门道，还喜欢在看风景时观察不同人的状态，这些让我更能摸透用户心思，把推广做得更“戳人”～</font></font></p>
+	</li>
+
+	
+</ul><!--end recommends-->
+
+<div class="clear"></div>
+
+
+</div><!--end wrapper-->
+
+<!--COPYRIGHT-->
+<div id="copyright">&copy; 2025 - Designed and developed by THE MOLITOR. More Templates</div>
+
+<!--SCRIPTS-->
+<script src="js/jquery.js"></script>
+<script src="js/prettyPhoto.js"></script>
+<script src="js/backPosition.js"></script>
+<script src="js/custom.js"></script>
+
 </body>
 </html>
